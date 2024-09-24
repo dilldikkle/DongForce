@@ -1,0 +1,57 @@
+.header_container {
+  display: flex;
+  justify-content: center;
+}
+
+.header_image {
+  display: block;
+  margin-bottom: 25px;
+}
+
+h1 {
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.header_highlight_container {
+  display: flex;
+  justify-content: center;
+}
+
+.header_highlight {
+  background-color: rgba(212, 30, 30, .5);
+  width: 400px;
+  height: 60px;
+  position: relative;
+  top: -60px;
+  z-index: 100;
+  animation: blink 1s linear none infinite;
+}
+  @keyframes blink {
+    50% {
+      opacity: .5;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+.header_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  z-index: 200;
+}
+
+
+body {
+  background-image: url(/data/webb-dark.png);
+  background-color: rgb(34, 255, 0);
+  background-blend-mode:hard-light
+}
