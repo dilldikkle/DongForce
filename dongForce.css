@@ -51,7 +51,7 @@ h1 {
 
 
 body {
-  background-image: url(/data/webb-dark.png);
+  background-image: url(data/webb-dark.png);
   background-color: rgb(34, 255, 0);
   background-blend-mode:hard-light
 }
